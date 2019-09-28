@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans">
+     <bean id="song1"
+          class="spring.ch1.topic2.Song">
+        <constructor-arg value="my heart will go on" />
+    </bean>
+
+    <bean id="song2"
+          class="spring.ch1.topic2.Song">
+        <constructor-arg value="there will be" />
+    </bean>
+
+    <bean id="jack"
+          class="spring.ch1.topic2.Singer">
+        <constructor-arg ref="song1" />
+    </bean>
+
+    <bean id="rose"
+          class="spring.ch1.topic2.Singer">
+        <constructor-arg ref="song2" />
+    </bean>
+
+</beans>
