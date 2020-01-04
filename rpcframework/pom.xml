@@ -74,7 +74,8 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.0.36.Final</version>
+            <version>4.1.8.Final</version>
+            <type>pom</type>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.esotericsoftware/kryo -->
         <dependency>
