@@ -8,10 +8,11 @@ import org.springframework.stereotype.Service;
 @Slf4j
 
 @Service("weixin-pay")
-@BusinessBeanRouteConfig(prefix = "weixin",businessType = BeanTypeEnum.PAY)
+@BusinessBeanRouteConfig(prefix = "weixin", businessType = BeanTypeEnum.PAY)
 public class WeixinPay implements AbsPay {
 
-    @Override public String pay() {
+    @Override
+    public String pay() {
         log.info("微信支付成功");
         return "微信支付成功";
     }

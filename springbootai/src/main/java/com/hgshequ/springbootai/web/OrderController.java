@@ -25,16 +25,16 @@ public class OrderController {
 
     @GetMapping("/list")
     @ResponseBody
-    public Object listOrder(){
+    public Object listOrder() {
         AbsPay weixin = beanFactory.getBusinessBean("weixin", BeanTypeEnum.PAY, AbsPay.class);
-        log.info(">>>{}",weixin);
-        if(weixin != null){
+        log.info(">>>{}", weixin);
+        if (weixin != null) {
             weixin.pay();
         }
 
         AbsValidate weixin2 = beanFactory.getBusinessBean("weixin", BeanTypeEnum.VALIDATE, AbsValidate.class);
-         log.info(">>>2{}",weixin2);
-        if(weixin2 != null){
+        log.info(">>>2{}", weixin2);
+        if (weixin2 != null) {
             weixin2.validate();
         }
 

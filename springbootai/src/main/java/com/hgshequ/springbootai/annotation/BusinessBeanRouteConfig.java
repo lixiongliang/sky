@@ -17,21 +17,24 @@ public @interface BusinessBeanRouteConfig {
 
     /**
      * bean 业务类型
+     *
      * @return
      */
-    BeanTypeEnum businessType () ;
+    BeanTypeEnum businessType();
 
     /**
      * bean name 前缀
+     *
      * @return
      */
-    String prefix() ;
+    String prefix();
 
     /**
      * 需要处理资金渠道数组
+     *
      * @return
      */
-    String []  handlePartnerCode() default {};
+    String[] handlePartnerCode() default {};
 
 
 }

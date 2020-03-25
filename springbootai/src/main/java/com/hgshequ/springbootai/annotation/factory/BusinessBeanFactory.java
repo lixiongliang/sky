@@ -2,7 +2,9 @@ package com.hgshequ.springbootai.annotation.factory;
 
 import com.hgshequ.springbootai.annotation.BeanTypeEnum;
 import com.hgshequ.springbootai.annotation.BusinessBeanRouteConfig;
+
 import java.util.concurrent.ConcurrentHashMap;
+
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.InitializingBean;

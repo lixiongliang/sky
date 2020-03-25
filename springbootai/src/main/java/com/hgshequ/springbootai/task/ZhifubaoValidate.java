@@ -6,11 +6,12 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 @Slf4j
-@BusinessBeanRouteConfig(prefix = "zhifubao",businessType = BeanTypeEnum.VALIDATE)
+@BusinessBeanRouteConfig(prefix = "zhifubao", businessType = BeanTypeEnum.VALIDATE)
 @Service
-public class ZhifubaoValidate implements  AbsValidate{
+public class ZhifubaoValidate implements AbsValidate {
 
-    @Override public boolean validate() {
+    @Override
+    public boolean validate() {
         log.info("ZhifubaoValidate 验证成功");
         return true;
     }
