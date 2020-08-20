@@ -1,0 +1,12 @@
+[file]
+fileDir =
+package = com.welab.haiermoney.web.request
+
+#wordName = D:\\word\\需求文档\\微神马\\微神马——资产端接口文档v3.3.0.docx
+#table_columns = ['订单字段键','键名']
+#table_dict = {'field': 0, 'fieldName': 1, 'fieldType': 4, 'must': 2, 'comment': 6}
+
+
+wordName = D:\\word\\需求文档\\海尔云贷\\评审费模式\\海尔云贷开放平台接入文档(5)(1)(1).DOCX
+table_columns = ['序号','名称','字段含义']
+table_dict = {'field': 1, 'fieldName': 2, 'fieldType': 3, 'must': 4, 'comment': 5}
